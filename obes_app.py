@@ -4,6 +4,7 @@ import joblib
 from io import StringIO
 import base64
 import xgboost
+import sklearn
 
 # Set the page configuration
 st.set_page_config(page_title='Obesity Predictor - Your Friendly App', layout='wide')

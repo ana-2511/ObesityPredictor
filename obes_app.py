@@ -31,7 +31,7 @@ st.markdown(
 )
 
 # Load the trained model and scaler
-model = joblib.load('xgb_model_retrained.pkl')
+model = joblib.load('xgb_new_model.pkl.gz')
 scaler = joblib.load('scaler_retrained.pkl')
 
 # Map for obesity levels
